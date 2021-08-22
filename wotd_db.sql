@@ -1,0 +1,51 @@
+CREATE SEQUENCE Users_seq START 1 INCREMENT 1;
+CREATE SEQUENCE Admins_seq START 1 INCREMENT 1;
+CREATE SEQUENCE Words_seq START 1 INCREMENT 1;
+CREATE SEQUENCE PrizeList_seq START 1 INCREMENT 1;
+CREATE SEQUENCE Campaigns_seq START 1 INCREMENT 1;
+CREATE TABLE Users(
+    Id INT PRIMARY KEY NOT NULL DEFAULT NEXTVAL('Users_seq'),
+    Username VARCHAR(30) NOT NULL,
+    Email VARCHAR(50),
+    BirthDate VARCHAR(10)
+);
+CREATE TABLE Admins(
+    Id INT PRIMARY KEY NOT NULL DEFAULT NEXTVAL('Admins_seq'),
+    Username VARCHAR(30) NOT NULL,
+    Password VARCHAR(100) NOT NULL
+);
+CREATE TABLE Words(
+    Id INT PRIMARY KEY NOT NULL DEFAULT NEXTVAL('Words_seq'),
+    Word VARCHAR(30) NOT NULL,
+    IsWOTD BOOLEAN NOT NULL
+);
+CREATE TABLE PrizeLists(
+    Id INT PRIMARY KEY NOT NULL DEFAULT NEXTVAL('PrizeList_seq'),
+    isActive BOOLEAN NOT NULL
+);
+CREATE TABLE Prizes(
+  PrizeListId INT NOT NULL,
+  PrizeId INT NOT NULL,
+  Prize VARCHAR(30) NOT NULL,
+  TimesSelected INT NOT NULL,
+  CONSTRAINT Fk_PrizeList FOREIGN KEY(PrizeListId) REFERENCES PrizeLists(Id),
+  PRIMARY KEY(PrizeListId, PrizeId)
+);
+CREATE TABLE Campaigns(
+    Id INT PRIMARY KEY NOT NULL,
+    Name VARCHAR(30) NOT NULL,
+    IsActive BOOLEAN NOT NULL
+);
+CREATE TABLE Reports(
+    CampaignId INT PRIMARY KEY DEFAULT NEXTVAL('Campaigns_seq'),
+    NoUsers INT NOT NULL,
+    NoCorrect INT NOT NULL,
+    NoFail INT NOT NULL,
+    CONSTRAINT Fk_CampaingId FOREIGN KEY(CampaignId) REFERENCES Campaigns(Id)
+);
+--To avoid errors alter sequences after tables have been created
+ALTER SEQUENCE Users_seq OWNED BY Users.Id;
+ALTER SEQUENCE Admins_seq OWNED BY Admins.Id;
+ALTER SEQUENCE Words_seq OWNED BY Words.Id;
+ALTER SEQUENCE PrizeList_seq OWNED BY PrizeLists.Id;
+ALTER SEQUENCE Campaigns_seq OWNED BY Campaigns.Id;
