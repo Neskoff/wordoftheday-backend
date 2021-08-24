@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17767dd8-1aff-4f74-9bb4-33b0776a4ef9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/mappers/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/UserRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/resources/UserResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/webcontroller/webController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1629628486043</updated>
       <workItem from="1629628488247" duration="6805000" />
+      <workItem from="1629808053189" duration="1822000" />
     </task>
     <servers />
   </component>
@@ -88,6 +85,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
