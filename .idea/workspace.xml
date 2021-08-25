@@ -5,17 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17767dd8-1aff-4f74-9bb4-33b0776a4ef9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/domain/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/AdminRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/AdminRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/resources/AdminResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/AdminServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/domain/Word.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/mappers/WordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/WordRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/WordRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/resources/WordResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/WordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/WordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/webcontroller/webController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/webcontroller/webController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +29,7 @@
         <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -57,7 +59,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="SQL Dialects" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nesko\Documents\wordoftheday-backend\src\main\resources\static\css" />
+      <recent name="C:\Users\nesko\Documents\wordoftheday-backend\src\main\resources\static" />
+      <recent name="C:\Users\nesko\Documents\wordoftheday-backend\src\main\resources\templates" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="WordofthedayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">

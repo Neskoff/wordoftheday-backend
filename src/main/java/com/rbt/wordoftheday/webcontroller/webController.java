@@ -1,7 +1,9 @@
 package com.rbt.wordoftheday.webcontroller;
 
 import com.rbt.wordoftheday.domain.Admin;
+import com.rbt.wordoftheday.domain.Word;
 import com.rbt.wordoftheday.services.AdminService;
+import com.rbt.wordoftheday.services.WordService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -15,7 +17,10 @@ import javax.validation.Valid;
 public class webController {
 @Autowired
 private AdminService adminService;
+@Autowired
+private WordService wordService;
 private String currentAdmin;
+private Word currentWOTD;
 
     @GetMapping("/")
     public String getLoginPage(Model model){
@@ -24,7 +29,9 @@ private String currentAdmin;
     }
     @GetMapping("/home")
     public String getHomePage(Model model){
+        this.currentWOTD = this.wordService.getWOTD();
         model.addAttribute("name",currentAdmin);
+        model.addAttribute("WOTD", currentWOTD);
         if (currentAdmin == null)
         return "redirect:/";
         else
