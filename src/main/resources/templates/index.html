@@ -7,6 +7,6 @@
 <body>
 <h3 th:text="'Hello, ' + ${name} + '!'" />
 <h4>Current Word Of The Day:</br></h4>
-<input type="text" value="RedBlackTree">
+<input type="text" th:value="*{WOTD.Word}">
 </body>
 </html>
