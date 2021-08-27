@@ -32,12 +32,12 @@ CREATE TABLE Prizes(
   PRIMARY KEY(PrizeListId, PrizeId)
 );
 CREATE TABLE Campaigns(
-    Id INT PRIMARY KEY NOT NULL,
+    Id INT PRIMARY KEY NOT NULL DEFAULT NEXTVAL('Campaigns_seq'),
     Name VARCHAR(30) NOT NULL,
     IsActive BOOLEAN NOT NULL
 );
 CREATE TABLE Reports(
-    CampaignId INT PRIMARY KEY DEFAULT NEXTVAL('Campaigns_seq'),
+    CampaignId INT PRIMARY KEY ,
     NoUsers INT NOT NULL,
     NoCorrect INT NOT NULL,
     NoFail INT NOT NULL,
