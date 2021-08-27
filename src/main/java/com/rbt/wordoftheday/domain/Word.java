@@ -10,10 +10,10 @@ import javax.validation.constraints.NotBlank;
 public class Word{
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    public int Id;
+    private int Id;
     @NotBlank(message = "You must provide a word")
-    public String Word;
-    public boolean isWOTD;
+    private String Word;
+    private boolean isWOTD;
 
     public Word(){};
 
@@ -23,8 +23,19 @@ public class Word{
         this.isWOTD = isWOTD;
     }
 
+    public int getId() {
+        return Id;
+    }
+
     public void setId(int id) {
         Id = id;
+    }
+
+    public String Word() {
+        return Word;
+    }
+    public String getWord() {
+        return Word;
     }
 
 
@@ -33,7 +44,11 @@ public class Word{
     }
 
 
-    public void setWOTD(boolean WOTD) {
-        isWOTD = WOTD;
+    public void setWOTD(boolean isWOTD) {
+        this.isWOTD = isWOTD;
+    }
+
+    public boolean isWOTD() {
+        return isWOTD;
     }
 }

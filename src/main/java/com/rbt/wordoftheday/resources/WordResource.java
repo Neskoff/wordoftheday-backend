@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/api/words")
 public class WordResource {
@@ -18,5 +20,10 @@ public class WordResource {
     public ResponseEntity<Word> getWOTD()
     {
         return ResponseEntity.ok(this.wordService.getWOTD());
+    }
+    @GetMapping("/getallwords")
+    public ResponseEntity<List<Word>> getAllWords()
+    {
+        return ResponseEntity.ok(this.wordService.getAllWords());
     }
 }
