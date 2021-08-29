@@ -5,30 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17767dd8-1aff-4f74-9bb4-33b0776a4ef9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/domain/Campaign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/domain/Report.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/mappers/CampaignMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/mappers/ReportMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/CampaignRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/CampaignRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/ReportRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/ReportRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/ReportServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/CampaignService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/CampaignServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/ReportService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/wordService/WordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/wordService/WordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/webControllers/CampaignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/webControllers/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/webControllers/RootController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/webControllers/WordController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/WordofthedayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/WordofthedayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/domain/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/domain/Admin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/domain/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/domain/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/mappers/WordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/AdminRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/AdminRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/AdminRepositoryImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/WordRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/WordRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/WordRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/WordRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/WordRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/resources/AdminResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/resources/AdminResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/resources/WordResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/resources/WordResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/WordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/WordService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/WordServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/WordServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/webcontroller/webController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/webcontroller/webController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/adminService/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/adminService/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/WordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/WordServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/webcontroller/webController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wotd_db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/wotd_db.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,9 +59,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
-  </component>
   <component name="ProjectId" id="1x4y6zI909DsmyrBHDAdFcDoWX6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -76,6 +75,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="SQL Dialects" />
   </component>
   <component name="RecentsManager">
@@ -104,6 +104,8 @@
       <updated>1629628486043</updated>
       <workItem from="1629628488247" duration="6805000" />
       <workItem from="1629808053189" duration="15031000" />
+      <workItem from="1630272695702" duration="356000" />
+      <workItem from="1630273168428" duration="3555000" />
     </task>
     <servers />
   </component>
@@ -125,5 +127,8 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/wordoftheday$WordofthedayApplication.ic" NAME="WordofthedayApplication Coverage Results" MODIFIED="1630271835776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

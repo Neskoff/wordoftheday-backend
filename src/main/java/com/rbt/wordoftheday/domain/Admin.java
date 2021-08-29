@@ -1,27 +1,25 @@
 package com.rbt.wordoftheday.domain;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.validation.constraints.NotBlank;
+import javax.persistence.*;
 
 @Entity
+@Table(name = "admins")
 public class Admin {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int Id;
-    @NotBlank(message = "Username is Mandatory")
-    public String Username;
-    @NotBlank(message = "Password is Mandatory")
-    public String Password;
+    @Column(name = "username")
+    private String username;
+    @Column(name = "password")
+    private String password;
 
-    public Admin(){};
+    public Admin() {
+    }
 
     public Admin(int id, String username, String password) {
         Id = id;
-        Username = username;
-        Password = password;
+        this.username = username;
+        this.password = password;
     }
 
     public int getId() {
@@ -32,19 +30,29 @@ public class Admin {
         Id = id;
     }
 
+    //Thymeleaf Compatibility
+    public String Username() {
+        return username;
+    }
+
     public String getUsername() {
-        return Username;
+        return username;
     }
 
     public void setUsername(String username) {
-        Username = username;
+        this.username = username;
+    }
+
+    //Thymeleaf Compatibility
+    public String Password() {
+        return password;
     }
 
     public String getPassword() {
-        return Password;
+        return password;
     }
 
     public void setPassword(String password) {
-        Password = password;
+        this.password = password;
     }
 }

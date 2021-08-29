@@ -1,6 +1,9 @@
 package com.rbt.wordoftheday.repositories;
 
-public interface AdminRepository {
+import com.rbt.wordoftheday.domain.Admin;
+import org.springframework.data.repository.CrudRepository;
 
-    boolean adminExists(String Username, String Password);
+public interface AdminRepository extends CrudRepository<Admin, Long> {
+
+    int countByUsernameAndPassword(String Username, String Password);
 }
