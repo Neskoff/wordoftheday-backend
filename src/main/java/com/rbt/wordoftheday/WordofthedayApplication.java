@@ -8,6 +8,7 @@ public class WordofthedayApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(WordofthedayApplication.class, args);
+
     }
 
 }

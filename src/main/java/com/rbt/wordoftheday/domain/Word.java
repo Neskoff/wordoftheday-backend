@@ -1,54 +1,53 @@
 package com.rbt.wordoftheday.domain;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.validation.constraints.NotBlank;
+import javax.persistence.*;
 
 @Entity
-public class Word{
+@Table(name = "words")
+public class Word {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int Id;
-    @NotBlank(message = "You must provide a word")
-    private String Word;
-    private boolean isWOTD;
+    private int id;
+    @Column(name = "word")
+    private String word;
+    @Column(name = "isWordOfTheDay")
+    private boolean wordOfTheDay;
 
-    public Word(){};
+    public Word() {
+    }
 
-    public Word(int id, String word, boolean isWOTD) {
-        Id = id;
-        Word = word;
-        this.isWOTD = isWOTD;
+    public Word(int id, String word, boolean wordOfTheDay) {
+        this.id = id;
+        this.word = word;
+        this.wordOfTheDay = wordOfTheDay;
     }
 
     public int getId() {
-        return Id;
+        return id;
     }
 
     public void setId(int id) {
-        Id = id;
+        this.id = id;
     }
 
+    //Thymeleaf Compatibility
     public String Word() {
-        return Word;
-    }
-    public String getWord() {
-        return Word;
+        return word;
     }
 
+    public String getWord() {
+        return word;
+    }
 
     public void setWord(String word) {
-        Word = word;
+        this.word = word;
     }
 
-
-    public void setWOTD(boolean isWOTD) {
-        this.isWOTD = isWOTD;
+    public void setWordOfTheDay(boolean wordOfTheDay) {
+        this.wordOfTheDay = wordOfTheDay;
     }
 
-    public boolean isWOTD() {
-        return isWOTD;
+    public boolean isWordOfTheDay() {
+        return wordOfTheDay;
     }
 }
