@@ -1,4 +1,4 @@
-package com.rbt.wordoftheday.services;
+package com.rbt.wordoftheday.services.campaignService;
 
 import com.rbt.wordoftheday.domain.Campaign;
 
@@ -10,4 +10,5 @@ public interface CampaignService {
     boolean resetCampaigns();
     boolean updateCampaign(Campaign campaign);
     boolean updateName(Campaign campaign);
+    boolean insertNewCampaign(Campaign campaign);
 }
