@@ -26,6 +26,7 @@ public class WordController {
             RootController.resultSet = "WordFail";
         RootController.wordsRedirect = true;
         RootController.campaignsRedirect = false;
+        RootController.prizesRedirect = false;
         return "redirect:/home";
     }
 
@@ -41,6 +42,7 @@ public class WordController {
             RootController.resultSet = "WordFail";
         RootController.wordsRedirect = true;
         RootController.campaignsRedirect = false;
+        RootController.prizesRedirect = false;
         return "redirect:/home";
     }
 

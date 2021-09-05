@@ -1,37 +1,40 @@
 package com.rbt.wordoftheday.domain;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
+@Table(name = "campaigns")
 public class Campaign {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int Id;
+    @Column(name = "id")
+    private int id;
+    @Column(name = "name")
     private String Name;
-    private Boolean isActive;
+    @Column(name = "isactive")
+    private Boolean isactive;
 
-    public Campaign(){};
+    public Campaign() {
+    }
 
-    public Campaign(int id, String name, Boolean isActive) {
-        Id = id;
+    public Campaign(int id, String name, Boolean isactive) {
+        this.id = id;
         Name = name;
-        this.isActive = isActive;
+        this.isactive = isactive;
     }
 
     public int getId() {
-        return Id;
+        return id;
     }
 
     public void setId(int id) {
-        Id = id;
+        this.id = id;
     }
 
     public String getName() {
         return Name;
     }
+
     public String Name() {
         return Name;
     }
@@ -41,10 +44,10 @@ public class Campaign {
     }
 
     public Boolean getActive() {
-        return isActive;
+        return isactive;
     }
 
     public void setActive(Boolean active) {
-        isActive = active;
+        isactive = active;
     }
 }

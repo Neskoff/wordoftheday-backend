@@ -1,6 +1,12 @@
 package com.rbt.wordoftheday.domain;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "uses")
 public class User {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int Id;
     private String Username;
     private String Email;

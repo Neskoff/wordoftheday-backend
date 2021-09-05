@@ -1,9 +1,9 @@
-package com.rbt.wordoftheday.services;
+package com.rbt.wordoftheday.services.userService;
 
 import com.rbt.wordoftheday.domain.User;
 
 public interface UserService {
+    boolean sendMessage(String email, String prize);
 
-    User getUserByUsername(String username);
     boolean insertUser(User user);
 }

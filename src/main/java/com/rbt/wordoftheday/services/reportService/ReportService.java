@@ -1,4 +1,4 @@
-package com.rbt.wordoftheday.services;
+package com.rbt.wordoftheday.services.reportService;
 
 import com.rbt.wordoftheday.domain.Report;
 

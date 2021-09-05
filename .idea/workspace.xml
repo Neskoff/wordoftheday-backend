@@ -5,31 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17767dd8-1aff-4f74-9bb4-33b0776a4ef9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/wordService/WordService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/wordService/WordServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/webControllers/CampaignController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/webControllers/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/webControllers/RootController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/webControllers/WordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/domain/Prize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/domain/PrizeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/PrizeListRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/PrizeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/resources/PrizeListResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/resources/ReportResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/prizeListService/PrizeListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/prizeListService/PrizeListServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/prizeService/PrizeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/prizeService/prizeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/userService/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/userService/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/webControllers/PrizeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/webControllers/PrizeListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/WordofthedayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/WordofthedayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/domain/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/domain/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/domain/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/domain/Word.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/mappers/WordMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/AdminRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/AdminRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/AdminRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/WordRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/WordRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/WordRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/resources/AdminResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/resources/AdminResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/resources/WordResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/resources/WordResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/adminService/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/adminService/AdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/WordService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/WordServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/webcontroller/webController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/domain/Campaign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/domain/Campaign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/domain/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/domain/Report.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/mappers/CampaignMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/mappers/ReportMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/mappers/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/CampaignRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/CampaignRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/CampaignRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/ReportRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/ReportRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/ReportRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/ReportServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/reportService/ReportServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/repositories/UserRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/resources/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/resources/UserResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/CampaignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/campaignService/CampaignService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/CampaignServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/campaignService/CampaignServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/ReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/reportService/ReportService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/services/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/webControllers/CampaignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/webControllers/CampaignController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/webControllers/RootController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/webControllers/RootController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/webControllers/WordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbt/wordoftheday/webControllers/WordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wotd_db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/wotd_db.sql" afterDir="false" />
     </list>
@@ -105,7 +120,12 @@
       <workItem from="1629628488247" duration="6805000" />
       <workItem from="1629808053189" duration="15031000" />
       <workItem from="1630272695702" duration="356000" />
-      <workItem from="1630273168428" duration="3555000" />
+      <workItem from="1630273168428" duration="3893000" />
+      <workItem from="1630432350245" duration="31242000" />
+      <workItem from="1630589262797" duration="352000" />
+      <workItem from="1630593140216" duration="11453000" />
+      <workItem from="1630830420146" duration="8221000" />
+      <workItem from="1630880929571" duration="503000" />
     </task>
     <servers />
   </component>
