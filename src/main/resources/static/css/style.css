@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.loginform{
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    color:white;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    background: rgba(255,255,255,0.3);
+}
+
+body{
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
